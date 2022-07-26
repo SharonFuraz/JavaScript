@@ -63,12 +63,12 @@ let password=prompt ("Ingresar contraseña");
 
 const iniciarSesion=(user,password,createUser,createPassword,createAccount)=>{
     if ((user.toLowerCase() == createUser.toLowerCase()) && (password.toLowerCase() == createPassword.toLowerCase())){
-        console.log("Bienvenido"+createAccount);
+        console.log("Bienvenido"+" "+createAccount);
     }else{
         console.log("Usuario o contraseña incorrectos");
     }
-    iniciarSesion (user,password,createUser,createPassword,createAccount);
 }
+iniciarSesion (user,password,createUser,createPassword,createAccount);
 
 let seleccionReceta=parseInt(prompt("Seleccione una receta: 1)Ñoquis2)Tarta de choclo3)Faina"));
 let seleccionNoquis=1;
