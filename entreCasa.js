@@ -76,30 +76,66 @@ let seleccionReceta=parseInt(prompt("Seleccione una receta: 1)Ñoquis 2)Tarta de
 let seleccionNoquis=1;
 let seleccionTarta=2;
 let seleccionFaina=3;
-let cantidadReceta=parseInt(prompt("Ingrese la cantidad que desea multiplicar su receta"));
+let cantidadPresupuesto=parseInt(prompt("Ingrese la cantidad que desea presupuestar"));
 
 //seleccion de recetas
 if(seleccionReceta==seleccionNoquis){
     console.log(noquis)
 
+ for(let i=1;i<cantidadPresupuesto;i++){
+    let resultado1=(cantidadPresupuesto*(noquis.costo))
+    console.log ("El pago por "+cantidadPresupuesto+" "+"es de: $"+resultado1)
+
+}
+ }
+else if (seleccionReceta==seleccionTarta){
+    console.log(tartaChoclo)
+for(let i=1;i<cantidadPresupuesto;i++){
+        let resultado2=(cantidadPresupuesto*(tartaChoclo.costo))
+        console.log ("El pago por "+cantidadPresupuesto+" "+"es de: $"+resultado2)
+}
+}
+else if (seleccionReceta==seleccionFaina){
+    console.log(faina)
+    for(let i=1;i<cantidadPresupuesto;i++){
+        let resultado3=(cantidadPresupuesto*(faina.costo))
+        console.log ("El pago por "+cantidadPresupuesto+"es de: $"+" "+resultado3)
+}
+} else{
+    console.log("Ingrese alguna de las recetas ofrecidas\n1)Ñoquis\n2)Tarta de choclo\n3)Faina")
+}
+let cantidadReceta=parseInt(prompt("Ingrese la cantidad de veces que quiere multiplicar su receta"));
+if(seleccionReceta==seleccionNoquis){
+    console.log(noquis)
+
  for(let i=1;i<cantidadReceta;i++){
-    let resultado1=(cantidadReceta*(noquis.costo))
-    console.log ("Su receta por"+" " +cantidadReceta+" "+"es de: $"+resultado1)
+    let resultado1=(cantidadReceta*noquis.cantidadPrimerIngrediente)
+    let resultado2=(cantidadReceta*noquis.cantidadSegundoIngrediente)
+    let resultado3=+(cantidadReceta*noquis.cantidadTercerIngrediente)
+    console.log ("Su receta por" +cantidadReceta+" "+" veces la original es:Ingredientes: papas "+resultado1+"kg,harina 0000 "+resultado2+"gr,"+resultado3 +"unidad,sal y pimienta a gusto")
 
 }
  }
 else if (seleccionReceta==seleccionTarta){
     console.log(tartaChoclo)
 for(let i=1;i<cantidadReceta;i++){
-        let resultado2=(cantidadReceta*(tartaChoclo.costo))
-        console.log ("Su receta por"+cantidadReceta+" "+"es de: $"+resultado2)
+        let resultado4=(cantidadReceta*tartaChoclo.cantidadPrimerIngrediente)
+        let resultado5=(cantidadReceta*tartaChoclo.cantidadSegundoIngrediente)
+        let resultado6=(cantidadReceta*tartaChoclo.cantidadTercerIngrediente)
+        let resultado7=(cantidadReceta*tartaChoclo.cantidadCuartoIngrediente)
+        let resultado8=(cantidadReceta*tartaChoclo.cantidadQuintoIngrediente)
+        let resultado9=(cantidadReceta*tartaChoclo.cantidadSextoIngrediente)
+        let resultado10=(cantidadReceta*tartaChoclo.cantidadSeptimoIngrediente)
+        console.log ("Su receta por "+cantidadReceta+" "+" veces la original es:Ingredientes: choclo en crema "+resultado4+" latas,choclo en grano "+resultado5+"latas,cebolla blanca "+resultado6+"unidades,pimentón(morrón) "+resultado7+"unidades,queso cremoso "+resultado8+"gr,queso crema "+resultado9+"gr,crema de leche"+resultado10+"chorros,sal y pimienta a gusto")
 }
 }
 else if (seleccionReceta==seleccionFaina){
     console.log(faina)
     for(let i=1;i<cantidadReceta;i++){
-        let resultado3=(cantidadReceta*(faina.costo))
-        console.log ("Su receta por"+cantidadReceta+"es de: $"+" "+resultado3)
+        let resultado11=(cantidadReceta*faina.cantidadPrimerIngrediente)
+        let resultado12=(cantidadReceta*faina.cantidadSegundoIngrediente)
+        let resultado13=(cantidadReceta*faina.cantidadTercerIngrediente)
+        console.log ("Su receta por "+cantidadReceta+" "+" veces la original es:Ingredientes: harina de garbanzos "+resultado11+"gr,agua "+resultado12+"ml,aceite de oliva"+resultado13+"ml,sal y pimienta a gusto")
 }
 } else{
     console.log("Ingrese alguna de las recetas ofrecidas\n1)Ñoquis\n2)Tarta de choclo\n3)Faina")
