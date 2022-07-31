@@ -98,11 +98,12 @@
 .receta__recetas{
    color: black;
     text-decoration: underline;color: black;
-    margin: 1rem;
+    margin-top: 1rem;
+    padding-left: 3rem;
 }
 .receta__ingredientes{
    color: black;
-   margin: 3rem;
+   padding-left: 3rem;
 }
 .receta__pasoApaso{
    color: black;
