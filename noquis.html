@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./proyecto.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg barra">
+            <div class="container p-0">
+            <a class="navbar-brand" href="./index.html"><img class="barra__entreCasa" src="./Assets/Entre Casa.png" alt="Logo Entre Casa"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 barra__navBar">
+                  <li class="nav-item barra__item">
+                    <a class="nav-link active barra__link" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown barra__item">
+                    <a class="nav-link dropdown-toggle barra__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recetas
+                    </a>
+                    <ul class="dropdown-menu barra__dropdown">
+                      <li><a class="dropdown-item barra__dropdownItem" href="./noquis.html">Ñoquis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item barra__dropdownItem" href="./tartaChoclo.html">Tarta de choclo</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item barra__dropdownItem" href="./faina.html">Faina</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item barra__item">
+                    <a class="nav-link barra__link ">Contacto
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="receta">
+        <h2 class="receta__titulo">Ñoquis de papa</h2>
+        <h3 class="receta__subtitulo">Faciles y rapidos para preparar en familia</h3>
+        <h5 class="receta__recetas">Ingredientes</h5>
+        <div class="receta__ingredientes">
+        <li>1 kg de papa</li>
+        <li>300 gr de harina 0000</li>
+        <li> 1 huevo</li>
+        <li>Sal y pimienta a gusto</li>
+        </div>
+        <h5 class="receta__recetas">Paso a paso</h5>
+        <div class="receta__pasoApaso">
+        <li>Lo primero que vamos a hacer lavar bien las papas ya que las vamos a hervir con cáscara ya que al cocerlas con cáscara evitamos que absorban agua en exceso. 
+            <div>Hacemos un corte horizontal por todo el contorno de la papa, en el video se ve bien, y las llevamos a una olla con agua. Cocinar hasta que al pincharlas se caigan.</div></li>
+        <li>Las retiramos y las dejamos enfriar sólo para no quemarnos. Con el corte que hicimos, la cáscara tiene que salir muy fácil en dos partes.</li>
+        <li>Pisamos las papas todavía en caliente como todo puré digno, agregamos sal, pimienta y mezclamos super bien.
+            <div>Agregamos el huevo batido y la harina. No le vamos a agregar toda la harina de una, nos vamos a guardar un poco para ver cómo viene.</div>
+            <div>Las cantidades son más bien proporcionales, puede ser que la papa haya absorbido más agua o que el huevo sea más chico, así que vamos a agregar la harina de a poco.</div></li>
+        <li>Unir con la mano hasta que se pueda pasar hasta la mesada y terminar de integrar. Si en este paso ven que hace falta más harina, tenemos el resto para agregar. 
+            <div>No es necesario amar mucho, la idea es llegar a una masa unida y uniforme sin tocarla mucho.</div></li>
+        <li>Cortar tiras de masa y hacer chorricitos o rollitos, y cortar trocitos de unos 2 o 3 cm de ancho, pueden enharinar el cuchillo para que sea más fácil.</li>
+        <li>Vamos a pasarlos por la herramienta para darle forma a los ñoquis de arriba hacia abajo. También pueden usar un tenedor enharinado que les deja una forma similar. 
+            <div>Colocarlos en una placa enharinada sin que se toquen para que no se pegoteen. Y claro, también pueden hacerlos sin la herramienta y simplemente que queden en su versión más rústica.</div></li>
+        <li>Para la cocción, llevar de a tandas a una olla con agua hirviendo con sal. Van a ver que se caen al fondo. Cuando suben, los dejan 1 minuto y ya están listos!</li>
+        </div>
+    </main>
+    <footer class="direccion" >
+        <div class="direccion__texto d-flex justify-content-center flex-column align-items-center">
+            <p class="direccion__parrafo">Teléfono de contacto: 114432445 (Buenos Aires, Argentina)</p>
+        </div>
+        <div class="direccion__socialMedia d-flex align-items-center justify-content-center">
+            <a href="#"><img class="direccion__instagram m-1 " src="./Assets/Instagram.png" alt="Instagram"></a>
+            <a  href="#"><img class="direccion__facebook " src="./Assets/facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+    <script src="entreCasa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

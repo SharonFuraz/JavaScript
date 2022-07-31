@@ -2,51 +2,50 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box; }
-
- .barra{
+.barra{
     background-color: rgb(226, 230, 240);
 
  }
-.barra__entreCasa{
+ .barra__entreCasa{
     width: 10rem;
     margin-left: 2rem;
  }
- .barra__link{
+.barra__link{
     color: black;
  }
- .barra__item{
+.barra__item{
     color: black;
     margin: 1.7rem;
  }
- .barra__navBar{
-    padding-left: 40rem;
+.barra__navBar{
+    padding-left: 18rem;
  }
- .index__cards{
+.index__cards{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 50px 25px;
  }
- .index__card{
+.index__card{
     display: flex;
     align-items: center;
     padding: 25px;
     margin-left: 2rem;
  }
- .index__bienvenida{
+.index__bienvenida{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
  }
- .index__subtitulo{
+.index__subtitulo{
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
  }
- .index__recetas{
+.index__recetas{
     margin-top: 3rem;
     display: flex;
     align-items: center;
@@ -54,28 +53,59 @@
     text-decoration: underline;
     list-style: none;
  }
- .index__titulo{
+.index__titulo{
     color: black;
     text-decoration: underline;color: black;
  }
- .direccion{
+.direccion{
     background-color:rgb(226, 230, 240) ;
  }
- .direccion__parrafo{
+.direccion__parrafo{
     color: black;
     margin-top: 2rem;
  }
- .direccion__socialMedia{
+.direccion__socialMedia{
     display: flex;
-    align-items: center;
+   align-items: center;
    justify-content: center;
   }
-  .direccion__instagram {
-          width: 2.1rem;
+.direccion__instagram {
+    width: 2.1rem;
         }
         
-  .direccion__facebook {
-          width: 1.7rem;
-          margin-right: 2rem;
+.direccion__facebook {
+   width: 1.7rem;
+   margin-right: 2rem;
         }
-        
+.receta{
+   margin-top: 3rem;
+   display: flex;
+   flex-direction: column;
+}
+.receta__titulo{
+   color: black;
+   text-decoration: underline;color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.receta__subtitulo{
+   margin-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.receta__recetas{
+   color: black;
+    text-decoration: underline;color: black;
+    margin: 1rem;
+}
+.receta__ingredientes{
+   color: black;
+   margin: 3rem;
+}
+.receta__pasoApaso{
+   color: black;
+   padding-left: 3rem;
+   padding-bottom: 2rem;
+}
