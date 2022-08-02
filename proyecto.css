@@ -81,6 +81,7 @@
    margin-top: 3rem;
    display: flex;
    flex-direction: column;
+   height: 65rem;
 }
 .receta__titulo{
    color: black;
@@ -91,6 +92,7 @@
 }
 .receta__subtitulo{
    margin-top: 2rem;
+   padding-left: 2rem;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -98,15 +100,25 @@
 .receta__recetas{
    color: black;
     text-decoration: underline;color: black;
-    margin-top: 1rem;
+    margin-top: 10rem;
     padding-left: 3rem;
 }
 .receta__ingredientes{
    color: black;
    padding-left: 3rem;
+   padding-bottom: 8rem;
 }
 .receta__pasoApaso{
    color: black;
    padding-left: 3rem;
    padding-bottom: 2rem;
+}
+.receta__imagen{
+   width: 42rem;
+   border:solid ; color:rgb(144, 158, 194);
+   border-width: 6;
+   position: absolute;
+   left: 25rem;
+   top: 25rem;
+   
 }
