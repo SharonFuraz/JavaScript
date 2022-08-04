@@ -74,6 +74,9 @@ const iniciarSesion=(user,password,createUser,createPassword,createAccount)=>{
 }
 iniciarSesion (user,password,createUser,createPassword,createAccount);
 
+let nombreReceta=("Conocé nuestras recetas")
+Recetas.forEach((recetas)=>console.log("Nuestras recetas son: "+recetas.receta))
+
 //variables recetas
 let seleccionReceta=parseInt(prompt("Seleccione una receta: 1)Ñoquis 2)Tarta de choclo 3)Faina"));
 let seleccionNoquis=1;
@@ -144,7 +147,7 @@ else if (seleccionReceta==seleccionFaina){
     console.log("No se encontró la receta solicitada")
 }
 let consulta= prompt("¿Qué ingrediente contiene la receta a buscar?")
-const buscarRecetas=Recetas.filter((receta)=>receta.preparacion=="harina");
+const buscarRecetas=Recetas.filter((recetas)=>recetas.preparacion=="harina");
 if(consulta=="harina"){
   console.log(buscarRecetas)
   console.log(faina)
