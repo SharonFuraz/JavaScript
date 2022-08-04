@@ -144,20 +144,10 @@ else if (seleccionReceta==seleccionFaina){
     console.log("No se encontró la receta solicitada")
 }
 let consulta= prompt("¿Qué ingrediente contiene la receta a buscar?")
-if(consulta="harina de garbanzos"){
-const buscarRecetas=Recetas.filter((receta)=>receta.preparacion=="harina de garbanzos");
-console.log(buscarRecetas)
-console.log(faina)
+const buscarRecetas=Recetas.filter((receta)=>receta.preparacion=="harina");
+if(consulta=="harina"){
+  console.log(buscarRecetas)
+  console.log(faina)
+  console.log(noquis)
 }
-else if(consulta="choclo"){
-const buscarRecetas1=Recetas.filter((receta)=>receta.preparacion=="choclo");
-console.log(buscarRecetas1)
-console.log(tartaChoclo)
-}
-else if(consulta="papa"){
-const buscarRecetas2=Recetas.filter((receta)=>receta.preparacion=="papa");
-console.log(buscarRecetas2)
-console.log(noquis)
-} else{
-console.log("El ingrediente buscado no se encuentra en ninguna receta")
-}
+
