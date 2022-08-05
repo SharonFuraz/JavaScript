@@ -20,43 +20,6 @@
 .barra__navBar{
     padding-left: 18rem;
  }
-.index__cards{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 25px;
- }
-.index__card{
-    display: flex;
-    align-items: center;
-    padding: 25px;
-    margin-left: 2rem;
- }
-.index__bienvenida{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
- }
-.index__subtitulo{
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-.index__recetas{
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: underline;
-    list-style: none;
- }
-.index__titulo{
-    color: black;
-    text-decoration: underline;color: black;
- }
 .direccion{
     background-color:rgb(226, 230, 240) ;
  }
