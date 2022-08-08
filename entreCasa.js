@@ -267,7 +267,7 @@ for (let i = 0; i < recetas.length; i++) {
     card.className="index__cards";
     card.innerHTML=`
     <div class="card index__card">
-    <img src=${recetas[i].fuente} class="card-img-top" alt="fotoReceta">
+    <img src=${recetas[i].fuente} class="card-img-top receta__imagen" alt="fotoReceta">
     <div class="index__cuerpo">
     <h5 class="receta__titulo">${recetas[i].nombre}</h5>
     <p class="receta__contenido">${ingredientes[i].descripcionIngredientes}</p>
