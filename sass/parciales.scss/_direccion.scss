@@ -1,0 +1,22 @@
+.direccion{
+    background-color:rgb(226, 230, 240) ;
+    &__parrafo{
+        color: black;
+        margin-top: 2rem;
+        font-family: 'Playfair Display', serif;
+        font-size: larger;
+     }
+    &__socialMedia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__instagram {
+        width: 2.1rem;
+    }
+            
+    &__facebook {
+        width: 1.7rem;
+        margin-right: 2rem;
+    }
+ }

@@ -66,13 +66,6 @@
    background-color: rgb(108, 119, 147);
    border:rgb(108, 119, 147) ;
 }
-#index__cartas{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-}
 .index__cards{
    padding: 25px;
 }

@@ -1,0 +1,20 @@
+.receta{
+    &__titulo{
+        color: black;
+        text-decoration: underline;color: black;
+        display: flex;
+        justify-content: space-between;
+     }
+     &__contenido{
+        color: black;
+        display: flex;
+        justify-content: space-between;
+     }
+     &__imagen{
+        height: 20rem;
+     }
+}
+#receta__boton{
+   background-color: rgb(108, 119, 147);
+   border:rgb(108, 119, 147) ;
+}

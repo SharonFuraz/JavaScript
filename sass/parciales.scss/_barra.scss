@@ -1,0 +1,22 @@
+.barra{
+    background-color: rgb(226, 230, 240);
+    &__entreCasa{
+        width: 10rem;
+        margin-left: 2rem;
+     }
+    &__link{
+        color: black;
+     }
+    &__item{
+        font-family: 'Playfair Display', serif;
+        font-size: larger;
+        color: black;
+        margin: 1.7rem;
+     }
+    &__navBar{
+        padding-left: 18rem;
+     }
+     &__dropdownItem:hover{
+       background-color:rgb(226, 230, 240) ;
+     }
+}

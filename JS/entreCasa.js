@@ -277,7 +277,7 @@ for (let i = 0; i < recetas.length; i++) {
     `;
     cards.append(card);
 }
-// let boton=document.getElementById("receta__boton");
+  let boton=document.getElementById("receta__boton");
 //  boton.onmouseover=()=>{
 //     alert("Abrir receta");
 //  }

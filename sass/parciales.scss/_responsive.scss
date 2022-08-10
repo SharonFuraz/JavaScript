@@ -1,0 +1,38 @@
+/*
+320px-480px: Mobile devices
+481px-768px: Ipods,Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, Large screens
+1201px and  more- extra Large screens, TV
+*/
+/* Small*/
+@media screen and (max-width: 480px) {
+    .index{
+      &__subtitulo{
+        padding-left: 2rem;
+        }
+      &__card{
+        margin-left: 0;
+        width: 15rem;
+    }
+  }
+  .barra{
+    &__boton{
+      margin-right: 1rem;
+    }
+  }
+  .direccion{
+    &__parrafo{
+      padding-left: 2rem;
+      font-size: large;
+    }
+  }
+}
+  
+  /* Medium*/
+  @media screen and (max-width: 768px) {
+  }
+  /* Medium*/
+  @media screen and (min-width: 768px) {
+   
+  }

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.barra {
+  background-color: #e2e6f0; }
+  .barra__entreCasa {
+    width: 10rem;
+    margin-left: 2rem; }
+  .barra__link {
+    color: black; }
+  .barra__item {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    color: black;
+    margin: 1.7rem; }
+  .barra__navBar {
+    padding-left: 18rem; }
+  .barra__dropdownItem:hover {
+    background-color: #e2e6f0; }
+
+.receta__titulo {
+  color: black;
+  text-decoration: underline;
+  color: black;
+  display: flex;
+  justify-content: space-between; }
+
+.receta__contenido {
+  color: black;
+  display: flex;
+  justify-content: space-between; }
+
+.receta__imagen {
+  height: 20rem; }
+
+#receta__boton {
+  background-color: #6c7793;
+  border: #6c7793; }
+
+.direccion {
+  background-color: #e2e6f0; }
+  .direccion__parrafo {
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: larger; }
+  .direccion__socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .direccion__instagram {
+    width: 2.1rem; }
+  .direccion__facebook {
+    width: 1.7rem;
+    margin-right: 2rem; }
+
+/*
+320px-480px: Mobile devices
+481px-768px: Ipods,Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, Large screens
+1201px and  more- extra Large screens, TV
+*/
+/* Small*/
+@media screen and (max-width: 480px) {
+  .index__subtitulo {
+    padding-left: 2rem; }
+  .index__card {
+    margin-left: 0;
+    width: 15rem; }
+  .barra__boton {
+    margin-right: 1rem; }
+  .direccion__parrafo {
+    padding-left: 2rem;
+    font-size: large; } }
+
+/* Medium*/
+/* Medium*/
+.index__cards {
+  padding: 2rem; }
+
+.index__card {
+  margin-left: 2rem;
+  border: solid;
+  color: #909ec2;
+  border-width: 3;
+  width: 18rem;
+  height: 30rem; }
+
+.index__bienvenida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px; }
+
+.index__subtitulo {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif; }
+
+.index__cuerpo {
+  margin: 2rem; }
+
+#index__cartas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
