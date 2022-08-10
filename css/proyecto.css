@@ -15,11 +15,16 @@
     color: black;
  }
 .barra__item{
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
     color: black;
     margin: 1.7rem;
  }
 .barra__navBar{
     padding-left: 18rem;
+ }
+ .barra__dropdownItem:hover{
+   background-color:rgb(226, 230, 240) ;
  }
 .direccion{
     background-color:rgb(226, 230, 240) ;
@@ -27,20 +32,22 @@
 .direccion__parrafo{
     color: black;
     margin-top: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
  }
 .direccion__socialMedia{
     display: flex;
-   align-items: center;
-   justify-content: center;
-  }
+    align-items: center;
+    justify-content: center;
+}
 .direccion__instagram {
     width: 2.1rem;
-        }
+}
         
 .direccion__facebook {
-   width: 1.7rem;
-   margin-right: 2rem;
-        }
+    width: 1.7rem;
+    margin-right: 2rem;
+}
 .receta__titulo{
    color: black;
    text-decoration: underline;color: black;
@@ -54,6 +61,10 @@
 }
 .receta__imagen{
    height: 20rem;
+}
+#receta__boton{
+   background-color: rgb(108, 119, 147);
+   border:rgb(108, 119, 147) ;
 }
 #index__cartas{
    display: flex;

@@ -272,8 +272,13 @@ for (let i = 0; i < recetas.length; i++) {
     <h5 class="receta__titulo">${recetas[i].nombre}</h5>
     <p class="receta__contenido">${ingredientes[i].descripcionIngredientes}</p>
     <p class="receta__contenido">Costo total: $ ${recetas[i].costo}</p>
-    <a href="#" class="receta__boton btn btn-primary">Ver receta</a>
+    <button id="receta__boton" class="btn btn-primary"><b>Receta</b></button>
     </div>
     `;
     cards.append(card);
 }
+// let boton=document.getElementById("receta__boton");
+//  boton.onmouseover=()=>{
+//     alert("Abrir receta");
+//  }
+  
