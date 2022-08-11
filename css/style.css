@@ -11,6 +11,8 @@
     margin-left: 2rem; }
   .barra__link {
     color: black; }
+  .barra__link:hover {
+    border-bottom: #7c58a3 solid 2px; }
   .barra__item {
     font-family: 'Playfair Display', serif;
     font-size: larger;

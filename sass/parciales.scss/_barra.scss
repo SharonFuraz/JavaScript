@@ -7,6 +7,9 @@
     &__link{
         color: black;
      }
+    &__link:hover {
+        border-bottom: #7c58a3 solid 2px;
+     }
     &__item{
         font-family: 'Playfair Display', serif;
         font-size: larger;
