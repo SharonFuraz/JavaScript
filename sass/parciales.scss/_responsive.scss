@@ -26,6 +26,13 @@
     &__item{
       margin:0.5rem;
     }
+    &__entreCasa{
+      width: 8rem;
+    }
+    &__link:hover {
+      color: #7c58a3;
+      border-bottom:0;
+   }
   }
   .direccion{
     &__parrafo{
