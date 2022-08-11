@@ -110,8 +110,10 @@
     width: 15rem; }
   .barra__boton {
     margin-right: 1rem; }
-  .barra_navBar {
-    padding-left: 1rem; }
+  .barra__navBar {
+    padding-left: 2rem; }
+  .barra__item {
+    margin: 0.5rem; }
   .direccion__parrafo {
     padding-left: 2rem;
     font-size: large; } }

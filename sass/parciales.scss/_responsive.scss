@@ -20,8 +20,11 @@
     &__boton{
       margin-right: 1rem;
     }
-    &_navBar{
-      padding-left: 1rem;
+    &__navBar{
+      padding-left: 2rem;
+    }
+    &__item{
+      margin:0.5rem;
     }
   }
   .direccion{
