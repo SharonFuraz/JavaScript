@@ -20,6 +20,9 @@
     &__boton{
       margin-right: 1rem;
     }
+    &_navBar{
+      padding-left: 1rem;
+    }
   }
   .direccion{
     &__parrafo{
@@ -28,11 +31,3 @@
     }
   }
 }
-  
-  /* Medium*/
-  @media screen and (max-width: 768px) {
-  }
-  /* Medium*/
-  @media screen and (min-width: 768px) {
-   
-  }
