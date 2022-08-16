@@ -38,10 +38,6 @@
 .receta__imagen {
   height: 20rem; }
 
-#receta__boton {
-  background-color: #6c7793;
-  border: #6c7793; }
-
 .direccion {
   background-color: #e2e6f0; }
   .direccion__parrafo {
