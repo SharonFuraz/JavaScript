@@ -20,8 +20,11 @@
     margin: 1.7rem; }
   .barra__navBar {
     padding-left: 18rem; }
-  .barra__dropdownItem:hover {
+  .barra__dropdown {
     background-color: #e2e6f0; }
+  .barra__dropdownItem:hover {
+    background-color: #7c58a3;
+    color: black; }
 
 .receta__titulo {
   color: black;
@@ -37,6 +40,10 @@
 
 .receta__imagen {
   height: 20rem; }
+
+#receta__boton {
+  background-color: #6c7793;
+  border: #6c7793; }
 
 .direccion {
   background-color: #e2e6f0; }

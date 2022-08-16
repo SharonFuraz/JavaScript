@@ -19,7 +19,11 @@
     &__navBar{
         padding-left: 18rem;
      }
-     &__dropdownItem:hover{
-       background-color:rgb(226, 230, 240) ;
+     &__dropdown{
+        background-color:rgb(226, 230, 240);
+     }
+     &__dropdownItem:hover{ 
+        background-color: #7c58a3;
+       color: black;
      }
 }
