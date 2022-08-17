@@ -138,8 +138,10 @@
     margin-left: 15rem; }
   .modal__contenido {
     color: black;
-    display: flex;
-    justify-content: space-between; }
+    margin: 2rem; }
+  .modal__contenido1 {
+    color: black;
+    margin: 2rem; }
 
 /* The Close Button */
 .close {

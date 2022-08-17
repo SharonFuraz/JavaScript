@@ -285,16 +285,16 @@ for (let i = 0; i < recetas.length; i++) {
     modal1.innerHTML=`
     <h5 class="modal__titulo">${recetas[i].nombre}</h5>
     <img src=${recetas[i].fuente1} class="card-img-top modal__imagen" alt="fotoReceta">
-    <p class="modal__contenido">${recetas[i].primerIngrediente},${recetas[i].cantidadPrimerIngrediente},${recetas[i].unidadesDeMedidaPrimer},
-    ${recetas[i].segundoIngrediente},${recetas[i].cantidadSegundoIngrediente},${recetas[i].unidadesDeMedidaSegundo},
-    ${recetas[i].tercerIngrediente},${recetas[i].cantidadTercerIngrediente},${recetas[i].unidadDeMedidaTercer}
-    ,${recetas[i].cuartoIngrediente},${recetas[i].cantidadCuartoIngrediente},${recetas[i].unidadDeMedidaCuarto},
-    ${recetas[i].quintoIngrediente},${recetas[i].cantidadQuintoIngrediente},${recetas[i].unidadDeMedidaQuinto},
-    ${recetas[i].sextoIngrediente},${recetas[i].cantidadSextoIngrediente},${recetas[i].unidadDeMedidaSexto},
-    ${recetas[i].septimoIngrediente},${recetas[i].cantidadSeptimoIngrediente},${recetas[i].unidadDeMedidaSeptimo},
-    ${recetas[i].octavoIngrediente},${recetas[i].cantidadOctavoIngrediente},${recetas[i].unidadDeMedidaOctavo},
-    ${recetas[i].novenoIngrediente},${recetas[i].cantidadNovenoIngrediente},${recetas[i].unidadDeMedidaNoveno},
-    ${recetas[i].decimoIngrediente},${recetas[i].cantidadDecimoIngrediente},${recetas[i].unidadDeMedidaDecimo}</p>
+    <li class="modal__contenido1">${recetas[i].primerIngrediente} ${recetas[i].cantidadPrimerIngrediente} ${recetas[i].unidadesDeMedidaPrimer}
+    <li class="modal__contenido1">${recetas[i].segundoIngrediente} ${recetas[i].cantidadSegundoIngrediente} ${recetas[i].unidadesDeMedidaSegundo}</li>
+    <li class="modal__contenido1">${recetas[i].tercerIngrediente} ${recetas[i].cantidadTercerIngrediente} ${recetas[i].unidadDeMedidaTercer}</li>
+    <li class="modal__contenido1">${recetas[i].cuartoIngrediente} ${recetas[i].cantidadCuartoIngrediente} ${recetas[i].unidadDeMedidaCuarto}</li>
+    <li class="modal__contenido1">${recetas[i].quintoIngrediente} ${recetas[i].cantidadQuintoIngrediente} ${recetas[i].unidadDeMedidaQuinto}</li>
+    <li class="modal__contenido1">${recetas[i].sextoIngrediente}  ${recetas[i].cantidadSextoIngrediente}  ${recetas[i].unidadDeMedidaSexto}</li>
+    <li class="modal__contenido1">${recetas[i].septimoIngrediente} ${recetas[i].cantidadSeptimoIngrediente} ${recetas[i].unidadDeMedidaSeptimo}</li>
+    <li class="modal__contenido1">${recetas[i].octavoIngrediente} ${recetas[i].cantidadOctavoIngrediente} ${recetas[i].unidadDeMedidaOctavo}</li>
+    <li class="modal__contenido1">${recetas[i].novenoIngrediente} ${recetas[i].cantidadNovenoIngrediente} ${recetas[i].unidadDeMedidaNoveno}</li>
+    <li class="modal__contenido1">${recetas[i].decimoIngrediente} ${recetas[i].cantidadDecimoIngrediente} ${recetas[i].unidadDeMedidaDecimo}</li>
     <p class="modal__contenido">${recetas[i].preparacion}</p>
     `;
     indexModal.append(modal1);
