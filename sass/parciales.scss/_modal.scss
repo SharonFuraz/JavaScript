@@ -30,10 +30,15 @@
       }
       &__contenido{
         color: black;
-        margin: 2rem;
+        padding-left: 4rem;
       }
       &__contenido1{
         color: black;
         margin: 2rem;
+      }
+      &__contenido2{
+        color: black;
+        margin-left: 2rem;
+        text-decoration: underline;color: black;
       }
   }
