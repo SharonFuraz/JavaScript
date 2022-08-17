@@ -99,6 +99,58 @@
   align-items: center;
   justify-content: center; }
 
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+  .modal__content {
+    background-color: #e2e6f0;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #7c58a3;
+    width: 80%; }
+  .modal__titulo {
+    color: black;
+    text-decoration: underline;
+    color: black;
+    display: flex;
+    justify-content: space-between; }
+  .modal__imagen {
+    width: 35rem;
+    margin-left: 15rem; }
+  .modal__contenido {
+    color: black;
+    display: flex;
+    justify-content: space-between; }
+
+/* The Close Button */
+.close {
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+
 /*
 320px-480px: Mobile devices
 481px-768px: Ipods,Tablets

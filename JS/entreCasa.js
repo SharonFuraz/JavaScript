@@ -1,6 +1,6 @@
 //Objetos
 class receta{
-    constructor (nombre,primerIngrediente,cantidadPrimerIngrediente,unidadesDeMedidaPrimer,segundoIngrediente,cantidadSegundoIngrediente,unidadesDeMedidaSegundo,tercerIngrediente,cantidadTercerIngrediente,unidadDeMedidaTercer,cuartoIngrediente,cantidadCuartoIngrediente,unidadDeMedidaCuarto,quintoIngrediente,cantidadQuintoIngrediente,unidadDeMedidaQuinto,sextoIngrediente,cantidadSextoIngrediente,unidadDeMedidaSexto,septimoIngrediente,cantidadSeptimoIngrediente,unidadDeMedidaSeptimo,octavoIngrediente,cantidadOctavoIngrediente,unidadDeMedidaOctavo,novenoIngrediente,cantidadNovenoIngrediente,unidadDeMedidaNoveno,decimoIngrediente,cantidadDecimoIngrediente,unidadDeMedidaDecimo,preparacion,costo,fuente){
+    constructor (nombre,primerIngrediente,cantidadPrimerIngrediente,unidadesDeMedidaPrimer,segundoIngrediente,cantidadSegundoIngrediente,unidadesDeMedidaSegundo,tercerIngrediente,cantidadTercerIngrediente,unidadDeMedidaTercer,cuartoIngrediente,cantidadCuartoIngrediente,unidadDeMedidaCuarto,quintoIngrediente,cantidadQuintoIngrediente,unidadDeMedidaQuinto,sextoIngrediente,cantidadSextoIngrediente,unidadDeMedidaSexto,septimoIngrediente,cantidadSeptimoIngrediente,unidadDeMedidaSeptimo,octavoIngrediente,cantidadOctavoIngrediente,unidadDeMedidaOctavo,novenoIngrediente,cantidadNovenoIngrediente,unidadDeMedidaNoveno,decimoIngrediente,cantidadDecimoIngrediente,unidadDeMedidaDecimo,preparacion,costo,fuente,fuente1){
     this.nombre=nombre;
 
     this.primerIngrediente=primerIngrediente;
@@ -46,30 +46,31 @@ class receta{
     this.preparacion=preparacion;
     this.costo=costo;
     this.fuente=fuente;
+    this.fuente1=fuente1;
    }
 }
 const recetas=[]
 let noquis= new receta ("Ñoquis","papas",1,"kilo","harina 0000",300,"gr","huevo",1,"unidad","sal","a gusto",undefined,"pimienta","a gusto",undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,
 "Primero lavar bien las papas,hervirlas con cáscara ya que al cocerlas con cáscara evitamos que absorban agua en exceso. Hacemos un corte horizontal por todo el contorno de la papa,las llevamos a una olla con agua. Cocinar hasta que al pincharlas se caigan.Las retiramos y las dejamos enfriar sólo para no quemarnos. Con el corte que hicimos, la cáscara tiene que salir muy fácil en dos partes.Pisamos las papas todavía en caliente como pure, agregamos sal, pimienta y mezclamos bien. Agregamos el huevo batido y la harina. No le vamos a agregar toda la harina de una, nos vamos a guardar un poco para ver cómo viene. Las cantidades son más bien proporcionales, puede ser que la papa haya absorbido más agua o que el huevo sea más chico, así que vamos a agregar la harina de a poco. Unir con la mano hasta que se pueda pasar hasta la mesada y terminar de integrar. Si en este paso ven que hace falta más harina, tenemos el resto para agregar. No es necesario amar mucho, la idea es llegar a una masa unida y uniforme sin tocarla mucho.Cortar tiras de masa y hacer chorricitos o rollitos, y cortar trocitos de unos 2 o 3 cm de ancho, pueden enharinar el cuchillo para que sea más fácil.Ahora viene la magia, vamos a pasarlos por la herramienta para darle forma a los ñoquis de papa de arriba hacia abajo. También pueden usar un tenedor enharinado que también les deja una forma similar. Colocarlos en una placa enharinada sin que se toquen para que no se pegoteen. Y claro, también pueden hacerlos sin la herramienta y simplemente que queden en su versión más rústica.Para la cocción, llevar de a tandas a una olla con agua hirviendo con sal. Van a ver que se caen al fondo. Cuando suben, los dejan 1 minuto y ya están listos",1000,
-"./Assets/noquis.jpeg");
+"./Assets/noquis.jpeg","./Assets/noquis2.png");
 
 let tartaChoclo= new receta ("Tarta de choclo","choclo en crema",1,"lata","choclo en grano",1,"lata","cebolla blanca",1,"unidad","pimiento(morrón)",1,"unidad","queso cremoso",100,"gr","queso crema",70,"gr","crema de leche",1,"chorro","sal","a gusto",undefined,"pimienta","a gusto",undefined,undefined,undefined,undefined,
 "Picar la cebolla y el pimiento pimiento rojo. En una sartén con un chorro de aceite saltear hasta que la cebolla esté transparente. Escurrir la lata de choclo en granos y la agregamos a la sartén junto con la lata de choclo cremoso. Salpimentar y dejar cocinar entre 3 a 5 minutos más, no mas que eso. Es solo un golpe de calor para que tomen gusto entre todos los ingredientes. En un bol mezclar el choclo, el queso crema, la crema de leche y la mitad del queso cremoso en cubitos y revolver hasta integrar. Agregar el relleno a una tartera con la masa y colocar el resto del queso cremoso en cubos en la parte de arriba. Pueden ponerle tapa si gustan, yo prefiero sin así se gratina el queso, -y se come menos harina y todo eso vieron. Llevar al horno a 180º hasta que esté dorada la masa y la superficie.",1500,
-"./Assets/tartaChoclo.jpeg");
+"./Assets/tartaChoclo.jpeg","./Assets/Tarta2.jpeg");
 
 let faina=new receta("Faina","harina de garbanzos",300,"gr","agua",850,"ml","aceite de oliva",100,"ml","sal","a gusto",undefined,"pimienta","a gusto",undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,
 "En un bol mezclar la harina de garbanzos junto con la sal y la pimienta. Ir agregando el agua de a poco, sin que se armen grumos. Luego, agregar el aceite de oliva y usar un batidor de mano para incorporar todo muy bien. La mezcla debe quedar bien uniforme. Llevar a refrigerar por un día como mínimo. Una vez transcurrido el tiempo colocar en una pizzera previamente calentada con aceite en un horno bien alto (a 220°).Cocinar hasta que la fainá esté dorada.",500,
-"./Assets/faina.jpeg");
+"./Assets/faina.jpeg","./Assets/faina2.webp");
 
 let rogel= new receta("Rogel","manteca",130,"gr","yemas",4,undefined,"harina 0000",600,"gr","agua",200,"ml","sal",5,"gr","azucar",10,"gr","azucar",300,"gr","claras",4,undefined,undefined,undefined,undefined,undefined,undefined,undefined,
 "Como hacer torta rogel paso a paso:En un bol colocar la harina junto con la sal y el azúcar, mezclar esto y continuar; hacer una corona con la harina y colocar ahí las yemas, el agua y la manteca derretida. Mezclar todo hasta formar una masa.Volcar en la preparación en la mesada y amasar a mano por un minuto. Cubrir con papel film y dejar reposar por 1 hora.Pasado este tiempo, separar la masa en 8 o 10 partes, dependiendo de la cantidad de tapitas con las que quieras armar tu torta rogel. Con parte hacer un bollito y estirar de 2 a 3 ml. de espesor. Pueden colocar encima de la masa la base del molde en el que harán la torta para tener una referencia y cortarlos con esta forma. Tener en cuenta que la tapas se encogerán un poco.Colocar las masas cortadas en una placa para horno previamente enharinada y pinchar la superficie de la masa con un tenedor. Cocinar a 200 grados por 8 a 10 minutos, hasta que la tapa esté dorada.Una vez cocinadas las tapas comenzar con el armado: Untar cada tapa con dulce de leche repostero colocando la cantidad necesaria y por encima otra tapa y aplastamos ambas. Repetir la acción hasta completar todas las tapas.La última tapa no lleva dulce de leche. Cómo preparar el Merengue:Mezclar las claras con 300 gr. de azúcar y revolver, llevar al fuego revolviendo hasta que el azúcar se disuelva, también se puede hacer a baño María.Cuando notar que el azúcar se disolvió, es el punto en el que sacamos del fuego.Comenzar a batir el merengue hasta enfriar.Una vez frío, colocar por arriba de la última tapa de rogel y con la misma espátula armar unos picos como decoración."
-,4000,"./Assets/rogel2.jpeg");
+,4000,"./Assets/rogel2.jpeg","./Assets/rogel1.jpeg");
 
 let galletas=new receta("Galletitas de chocolate","chocolate",250,"gr","manteca",50,"gr","azucar impalpable",100,"gr","huevos",2,"unidades","harina de trigo",200,"gr","levadura",1,"cc","vainilla",1,"cucharada","sal","a gusto",undefined,undefined,undefined,undefined,undefined,undefined,undefined,"Fundir el chocolate a baño maría o en el microondas. Sumar la manteca junto a la vainilla y mezclar todo. Batir el azúcar y los huevos hasta duplicar el volumen. Por arriba agregar el chocolate derretido y mezclar nuevamente. Por último sumar la harina tamizada y la levadura con una pizca de sal. Mezclar lentamente hasta unir por completo. Refrigerar la masa por un rato hasta lograr una consistencia más dura. Con la masa fría formar las galletas, aplastarlas un poco y colocarlas en una placa de horno dejando una distancia prudente entre cada una. Precalentar el horno a 170 °C y hornear durante 10 min. Ir controlando el color y que no se quemen. Las galletas de chocolate deben quedar crocantes por fuera Enfriarlas sobre una rejilla y servir."
-,1500,"./Assets/galletas.jpeg");
+,1500,"./Assets/galletas.jpeg","./Assets/galletas2.jpeg");
 
 let budin= new receta("Budín de mandarina","mandarinas",2,"unidades","harina 0000",2,"tazas","azucar",1,"taza","huevos",3,"unidades","aceite neutro",1,"taza",undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,"Precalentar el horno, como siempre, en súper mínimo. Batir los huevos con el azúcar.Agregar una de las tazas de harina y remover hasta unir completamente.Agregar la taza de aceite y lo mismo: remover hasta unir (puede hacerse con espátula o con batidora).Incorporar la cáscara rallada y el jugo de las 2 mandarinas. Si son muy jugosas, poné solo el jugo de una.Incorporar la última taza de harina hasta unir.Llevar a horno suave por 45 minutos o hasta que esté dorado por arriba"
-,1200,"./Assets/budin1.jpeg")
+,1200,"./Assets/budin1.jpeg","./Assets/budin2.jpeg")
 
 recetas.push(noquis);
 recetas.push(tartaChoclo);
@@ -272,14 +273,45 @@ for (let i = 0; i < recetas.length; i++) {
     <h5 class="receta__titulo">${recetas[i].nombre}</h5>
     <p class="receta__contenido">${ingredientes[i].descripcionIngredientes}</p>
     <p class="receta__contenido">Costo total: $ ${recetas[i].costo}</p>
-    <button id="receta__boton" class="btn btn-primary"><b>Receta</b></button>
+    <button type="button" id="receta__boton" class="btn btn-primary"><b>Receta</b></button>
     </div>
     `;
     cards.append(card);
 }
-  let boton=document.getElementById("receta__boton");
-     boton.onclick=()=>{
-     alert("Abrir receta");
-  }
+let indexModal=document.getElementById("modal__text");
+for (let i = 0; i < recetas.length; i++) {
+    let modal1=document.createElement("div");
+    modal1.className="modal__text";
+    modal1.innerHTML=`
+    <h5 class="modal__titulo">${recetas[i].nombre}</h5>
+    <img src=${recetas[i].fuente1} class="card-img-top modal__imagen" alt="fotoReceta">
+    <p class="modal__contenido">${recetas[i].primerIngrediente}</p>
+    <p class="modal__contenido">${recetas[i].preparacion}</p>
+    `;
+    indexModal.append(modal1);
+}
+// Get the modal
+let modal = document.getElementById("myModal");
 
-  
+// Get the button that opens the modal
+let btn = document.getElementById("receta__boton");
+
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
