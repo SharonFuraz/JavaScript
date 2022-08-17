@@ -285,7 +285,16 @@ for (let i = 0; i < recetas.length; i++) {
     modal1.innerHTML=`
     <h5 class="modal__titulo">${recetas[i].nombre}</h5>
     <img src=${recetas[i].fuente1} class="card-img-top modal__imagen" alt="fotoReceta">
-    <p class="modal__contenido">${recetas[i].primerIngrediente}</p>
+    <p class="modal__contenido">${recetas[i].primerIngrediente},${recetas[i].cantidadPrimerIngrediente},${recetas[i].unidadesDeMedidaPrimer},
+    ${recetas[i].segundoIngrediente},${recetas[i].cantidadSegundoIngrediente},${recetas[i].unidadesDeMedidaSegundo},
+    ${recetas[i].tercerIngrediente},${recetas[i].cantidadTercerIngrediente},${recetas[i].unidadDeMedidaTercer}
+    ,${recetas[i].cuartoIngrediente},${recetas[i].cantidadCuartoIngrediente},${recetas[i].unidadDeMedidaCuarto},
+    ${recetas[i].quintoIngrediente},${recetas[i].cantidadQuintoIngrediente},${recetas[i].unidadDeMedidaQuinto},
+    ${recetas[i].sextoIngrediente},${recetas[i].cantidadSextoIngrediente},${recetas[i].unidadDeMedidaSexto},
+    ${recetas[i].septimoIngrediente},${recetas[i].cantidadSeptimoIngrediente},${recetas[i].unidadDeMedidaSeptimo},
+    ${recetas[i].octavoIngrediente},${recetas[i].cantidadOctavoIngrediente},${recetas[i].unidadDeMedidaOctavo},
+    ${recetas[i].novenoIngrediente},${recetas[i].cantidadNovenoIngrediente},${recetas[i].unidadDeMedidaNoveno},
+    ${recetas[i].decimoIngrediente},${recetas[i].cantidadDecimoIngrediente},${recetas[i].unidadDeMedidaDecimo}</p>
     <p class="modal__contenido">${recetas[i].preparacion}</p>
     `;
     indexModal.append(modal1);
@@ -315,3 +324,24 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+// class descripcionReceta{
+//     constructor(descripcionRecetas){
+//         this.descripcionRecetas=descripcionRecetas
+//     }
+// }
+// const ingReceta=[]
+// let recetaNoquis= new descripcionReceta("1 kg de papa,300 gr de harina 0000,1 huevo,sal y pimienta");
+// let recetaTartaChoclo= new descripcionReceta("1 lata choclo crema,1 lata de choclo en grano (o dos choclos desgranados, lo que prefieras),1 cebolla blanca,1 pimiento morrón,100 gr queso cremoso,70 gr de queso crema,1 chorro de crema de leche o nata,Sal y pimienta");
+// let recetaFaina= new descripcionReceta("300 gr de harina de garbanzos,850 ml de agua,100 ml de aceite de oliva,Sal y pimienta");
+// let recetaRogel= new descripcionReceta("Para la masa: 130 g. de manteca,4 yemas,600 gr. de harina 0000,200 ml. de agua,5 gr. de sal,10 gr. de azúcar.Para el merengue,300 gr. de azúcar,4 claras");
+// let recetaGalletitas= new descripcionReceta("250 gr. de chocolate,50 gr. Manteca,100 gr. de Azúcar glass,2 huevos,200 gr. de harina de trigo,1 cc levadura en polvo,1 cda. de Vainilla,Sal");
+// let recetaBudin= new descripcionReceta("2 mandarinas,2 tazas de harina leudante (o harina + 2 cdita. de polvo para hornear).1 taza de azúcar,3 huevos,1 taza de aceite neutro (de girasol o maíz)");
+
+// ingReceta.push(recetaNoquis);
+// ingReceta.push(recetaTartaChoclo);
+// ingReceta.push(recetaFaina);
+// ingReceta.push(recetaRogel);
+// ingReceta.push(recetaGalletitas);
+// ingReceta.push(recetaBudin);

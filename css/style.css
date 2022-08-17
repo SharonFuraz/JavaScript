@@ -127,6 +127,7 @@
     border: 2px solid #7c58a3;
     width: 80%; }
   .modal__titulo {
+    margin-left: 2rem;
     color: black;
     text-decoration: underline;
     color: black;
