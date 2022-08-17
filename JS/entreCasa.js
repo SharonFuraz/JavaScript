@@ -99,22 +99,51 @@ ingredientes.push(descripcionRogel);
 ingredientes.push(descripcionGalletas);
 ingredientes.push(descripcionBudin);
 
+
 //  //Variables
 //  let createAccount=prompt ("Nombre completo");
 //  let createUser=prompt ("Crear Usuario");
-//  let createPassword=prompt ("Crear Contraseña");
-//  let user=prompt ("Ingresar usuario");
-//  let password=prompt ("Ingresar contraseña");
+//   let createPassword=prompt ("Crear Contraseña");
+//   let user=prompt ("Ingresar usuario");
+//   let password=prompt ("Ingresar contraseña");
 
 //  //Inciar sesion
 //  const iniciarSesion=(user,password,createUser,createPassword,createAccount)=>{
 //      if ((user.toLowerCase() == createUser.toLowerCase()) && (password.toLowerCase() == createPassword.toLowerCase())){
 //          console.log("Bienvenido"+" "+createAccount);
 //      }else{
-//          console.log("Usuario o contraseña incorrectos");
+//           console.log("Usuario o contraseña incorrectos");
 //      }
-//  }
-//  iniciarSesion (user,password,createUser,createPassword,createAccount);
+//   }
+//   iniciarSesion (user,password,createUser,createPassword,createAccount);
+
+//json
+localStorage.setItem("user","hola")
+
+ localStorage.setItem("envio",true);
+
+ let usuActual=localStorage.getItem("user");
+ console.log(usuActual);
+
+ localStorage.setItem("password","1234")
+
+ localStorage.setItem("envio",true);
+ 
+ let contActual=localStorage.getItem("password");
+ console.log(contActual);
+
+ const objAJson=JSON.stringify(recetas);
+ localStorage.setItem("receta",objAJson);
+ let traidoDeStorage = localStorage.getItem("receta");
+ console.log(traidoDeStorage)
+ const deJsonAObj= JSON.parse(traidoDeStorage);
+ console.log(deJsonAObj);
+
+ const ingredientesAlmacenados = JSON.parse(localStorage.getItem("receta"));
+ const ingred = [];
+ for (const objeto of ingredientesAlmacenados)
+    ingred.push(new receta(objeto));
+ 
 
 //  let nombreReceta=("Conocé nuestras recetas")
 //  recetas.forEach((receta)=>console.log("Nuestras recetas son: "+receta.nombre))
