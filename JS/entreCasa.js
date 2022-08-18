@@ -123,14 +123,12 @@ localStorage.setItem("user","hola")
  localStorage.setItem("envio",true);
 
  let usuActual=localStorage.getItem("user");
- console.log(usuActual);
 
  localStorage.setItem("password","1234")
 
  localStorage.setItem("envio",true);
  
  let contActual=localStorage.getItem("password");
- console.log(contActual);
 
  const objAJson=JSON.stringify(recetas);
  localStorage.setItem("receta",objAJson);
