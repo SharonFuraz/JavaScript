@@ -43,7 +43,7 @@
   background-color: #6c7793;
   border: #6c7793;
   display: flex;
-  margin: 1rem 4rem; }
+  margin: 0.5rem; }
 
 .direccion {
   background-color: #e2e6f0; }
@@ -160,6 +160,9 @@
     color: #000;
     text-decoration: none;
     cursor: pointer; }
+
+.btn:hover {
+  background-color: #5860a2; }
 
 /*
 320px-480px: Mobile devices
