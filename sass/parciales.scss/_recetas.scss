@@ -7,14 +7,15 @@
      }
      &__contenido{
         color: black;
-        display: flex;
-        justify-content: space-between;
      }
      &__imagen{
         height: 20rem;
      }
+     &__boton{
+      background-color: rgb(108, 119, 147);
+      border:rgb(108, 119, 147) ;
+      display: flex;
+      margin: 1rem 4rem;
+   }
 }
-#receta__boton{
-   background-color: rgb(108, 119, 147);
-   border:rgb(108, 119, 147) ;
-}
+

@@ -34,16 +34,16 @@
   justify-content: space-between; }
 
 .receta__contenido {
-  color: black;
-  display: flex;
-  justify-content: space-between; }
+  color: black; }
 
 .receta__imagen {
   height: 20rem; }
 
-#receta__boton {
+.receta__boton {
   background-color: #6c7793;
-  border: #6c7793; }
+  border: #6c7793;
+  display: flex;
+  margin: 1rem 4rem; }
 
 .direccion {
   background-color: #e2e6f0; }
@@ -135,7 +135,9 @@
     justify-content: space-between; }
   .modal__imagen {
     width: 35rem;
-    margin-left: 15rem; }
+    margin-left: 15rem;
+    border: solid;
+    color: #909ec2; }
   .modal__contenido {
     color: black;
     padding-left: 4rem; }

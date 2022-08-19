@@ -295,19 +295,19 @@ for (let i = 0; i < recetas.length; i++) {
     card.className="index__cards";
     card.innerHTML=`
     <div class="card index__card">
-    <img src=${recetas[i].fuente} class="card-img-top receta__imagen" alt="fotoReceta">
-    <div class="index__cuerpo">
-    <h5 class="receta__titulo">${recetas[i].nombre}</h5>
-    <p class="receta__contenido">${ingredientes[i].descripcionIngredientes}</p>
-    <p class="receta__contenido">Costo total: $ ${recetas[i].costo}</p>
-    <button type="button" id="receta__boton" class="btn btn-primary"><b>Receta</b></button>
+      <img src=${recetas[i].fuente} class="card-img-top receta__imagen" alt="fotoReceta">
+      <div class="index__cuerpo">
+      <h5 class="receta__titulo">${recetas[i].nombre}</h5>
+      <p class="receta__contenido">${ingredientes[i].descripcionIngredientes}</p>
+      <p class="receta__contenido">Costo total: $ ${recetas[i].costo}
+    <button type="button" class="btn btn-primary receta__boton" id="receta${i}"><b>Receta</b></button>
     </div>
     `;
-    cards.append(card);
-}
-let indexModal=document.getElementById("modal__text");
-for (let i = 0; i < recetas.length; i++) {
-    
+  cards.appendChild(card);
+  
+  const btn1 = document.getElementById("receta"+i);
+  btn1.addEventListener("click", function () {
+    let indexModal=document.getElementById("modal__text");
     let modal1=document.createElement("div");
     modal1.className="modal__text";
     modal1.innerHTML=`
@@ -327,7 +327,11 @@ for (let i = 0; i < recetas.length; i++) {
     <p class="modal__contenido1">${recetas[i].preparacion}</p>
     `;
     indexModal.append(modal1);
+    console.log('receta:', recetas[i].nombre);
+    modal.style.display = "block"
+  })
 }
+
 // Get the modal
 let modal = document.getElementById("myModal");
 
@@ -338,9 +342,9 @@ let btn = document.getElementById("receta__boton");
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+// btn.onclick = function() {
+//   modal.style.display = "block";
+// }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -353,24 +357,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
-// class descripcionReceta{
-//     constructor(descripcionRecetas){
-//         this.descripcionRecetas=descripcionRecetas
-//     }
-// }
-// const ingReceta=[]
-// let recetaNoquis= new descripcionReceta("1 kg de papa,300 gr de harina 0000,1 huevo,sal y pimienta");
-// let recetaTartaChoclo= new descripcionReceta("1 lata choclo crema,1 lata de choclo en grano (o dos choclos desgranados, lo que prefieras),1 cebolla blanca,1 pimiento morrón,100 gr queso cremoso,70 gr de queso crema,1 chorro de crema de leche o nata,Sal y pimienta");
-// let recetaFaina= new descripcionReceta("300 gr de harina de garbanzos,850 ml de agua,100 ml de aceite de oliva,Sal y pimienta");
-// let recetaRogel= new descripcionReceta("Para la masa: 130 g. de manteca,4 yemas,600 gr. de harina 0000,200 ml. de agua,5 gr. de sal,10 gr. de azúcar.Para el merengue,300 gr. de azúcar,4 claras");
-// let recetaGalletitas= new descripcionReceta("250 gr. de chocolate,50 gr. Manteca,100 gr. de Azúcar glass,2 huevos,200 gr. de harina de trigo,1 cc levadura en polvo,1 cda. de Vainilla,Sal");
-// let recetaBudin= new descripcionReceta("2 mandarinas,2 tazas de harina leudante (o harina + 2 cdita. de polvo para hornear).1 taza de azúcar,3 huevos,1 taza de aceite neutro (de girasol o maíz)");
-
-// ingReceta.push(recetaNoquis);
-// ingReceta.push(recetaTartaChoclo);
-// ingReceta.push(recetaFaina);
-// ingReceta.push(recetaRogel);
-// ingReceta.push(recetaGalletitas);
-// ingReceta.push(recetaBudin);
